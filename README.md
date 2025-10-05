@@ -110,8 +110,8 @@ false // if not found
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/your-username/PastebinMiniDemo.git
-cd PastebinMiniDemo
+git clone https://github.com/moonmido/Pastebin-Mini-Demo.git
+cd Pastebin-Mini-Demo
 ```
 
 2. **Configure Database**
@@ -119,9 +119,9 @@ cd PastebinMiniDemo
 - Create a database in MySQL/PostgreSQL
 - Update `application.properties` with DB credentials:
 ```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/pastebin
-spring.datasource.username=root
-spring.datasource.password=root
+spring.datasource.url=jdbc:mysql://localhost:3306/DB_NAME
+spring.datasource.username=DB_USERNAME
+spring.datasource.password=DB_PASSWORD
 spring.jpa.hibernate.ddl-auto=update
 ```
 
